@@ -14,11 +14,31 @@
 header{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  outline: solid 1px black;
+  padding: 0.5rem 1rem;
 }
 
-.left-header{
+.left_header{
   display: grid;
-grid-auto-flow: column;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.header_nav_list{
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;  
+}
+
+.right_header{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: right;
+  gap: 1rem;
 }
 
 
