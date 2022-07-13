@@ -31,25 +31,25 @@ function render (){
     //   </header> 
 
     let headerEl = document.createElement('header')
-    appEl.appendChild(headerEl)
+    appEl.append(headerEl)
 
     let leftHeaderEl = document.createElement('div')
-    leftHeaderEl.classList.add('left_header')
-    headerEl.appendChild(leftHeaderEl)
+    leftHeaderEl.className='left_header'
+    headerEl.append(leftHeaderEl)
 
     let headerLogoEl = document.createElement('h1')
-    headerLogoEl.classList.add('header_logo')
+    headerLogoEl.className = 'header_logo'
     headerLogoEl.textContent = 'Hollixton'
-    leftHeaderEl.appendChild(headerLogoEl)
+    leftHeaderEl.append(headerLogoEl)
 
     let headerNavEl = document.createElement('nav')
-    leftHeaderEl.appendChild(headerNavEl)
+    leftHeaderEl.append(headerNavEl)
 
     let headerNavListEl = document.createElement('ul')
-    headerNavListEl.classList.add('header_nav_list')
-    headerNavEl.appendChild(headerNavListEl)
+    headerNavListEl.className = 'header_nav_list'
+    headerNavEl.append(headerNavListEl)
 
     let headerNavItemEl = document.createElement('li')
-    headerNavItemEl.classList.add('header_nav_item')
+    headerNavItemEl.className = 'header_nav_item'
 
 }
