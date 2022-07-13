@@ -41,4 +41,40 @@ header{
   gap: 1rem;
 }
 
+main {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  padding: 1rem;
+}
 
+
+
+.products{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+.home_item{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+
+  padding: 1rem;
+}
+
+.item{
+  list-style: none;
+}
+
+.category_name{
+  display: grid;
+  justify-content: left;
+}
+
+.product_img{
+  width: 15rem;
+}
